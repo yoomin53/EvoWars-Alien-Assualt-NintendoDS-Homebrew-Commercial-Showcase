@@ -5,7 +5,7 @@
     <img src="./readme/Evowars_title.png" width="400"/>
 </p>
 <p align="right">
-    <img src="./readme/Evowars_cartridge.png" width="400"/>
+    <img src="./readme/Evowars_cartridge.PNG" width="400"/>
 </p>
 
 ## Nintendo DS Homebrew Game Commercial Showcase 
