@@ -2,7 +2,7 @@
 **© 2026 Jung Yoomin. All Rights Reserved.**
 ---
 
-## Nintendo DS Homebrew Commercial Showcase 
+## Nintendo DS Homebrew Game Commercial Showcase 
 > Commercial Nintendo DS homebrew action shooter
 > featuring era-based progression and real-time combat.
 
