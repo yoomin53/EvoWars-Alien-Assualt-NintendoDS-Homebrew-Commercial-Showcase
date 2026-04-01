@@ -12,6 +12,9 @@
 > featuring era-based progression and real-time combat.
 
 ![Gameplay Preview](readme/Lina3D.gif)
+<p align="center">
+    <img src="./readme/Lina3D.gif" width="2z00"/>
+</p>
 
 This project focuses on
 AI behavior modeling, system design, and data-driven decision-making
