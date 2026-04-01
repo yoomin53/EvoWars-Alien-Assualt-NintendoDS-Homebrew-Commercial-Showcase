@@ -11,7 +11,7 @@
 > Commercial Nintendo DS homebrew action shooter
 > featuring era-based progression and real-time combat.
 
-![Gameplay Preview](media/gameplay.gif)
+![Gameplay Preview](readme/Lina3D.gif)
 
 This project focuses on
 AI behavior modeling, system design, and data-driven decision-making
