@@ -11,7 +11,7 @@
 > Commercial Nintendo DS homebrew action shooter
 > featuring era-based progression and real-time combat.
 
-![Gameplay Preview](readme/Lina3D..gif)
+![Gameplay Preview](readme/gameplay.gif)
 <p align="center">
     <img src="./readme/Lina3D.gif" width="300"/>
 </p>
