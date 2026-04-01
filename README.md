@@ -42,7 +42,7 @@ can be designed with a Behaviour tree.
 ### character Profile
 <p align="center">
 	<img src="./readme/Aiden_Profile.png" width="33%"/>
-    <img src="./readme/Lina3D.gif" width="25%"/>
+    <img src="./readme/Lina3D.gif" width="27%"/>
 	<img src="./readme/Leia_Profile.png" width="30%"/>
 </p>
 
