@@ -34,42 +34,38 @@ int main(void) {
 
 
     SaveData save;
-    Save_InitNew(&save);
-    /*
     bool init_ok = fatInitDefault();
     consoleDemoInit();
     if (!init_ok)
     {
-         printf("fat init failed\n\n");
          Save_InitNew(&save);
     } else {
-        printf("Checking save file...\n");
+        //printf("Checking save file...\n");
 
         if (Save_Read(&save))
         {
-            printf("Existing save loaded!\n\n");
+            //printf("Existing save loaded!\n\n");
         }
         else
         {
-            printf("No valid save found.\n");
-            printf("Creating new save...\n\n");
+            //printf("No valid save found.\n");
+            //printf("Creating new save...\n\n");
 
             Save_InitNew(&save);
 
             if (!Save_Write(&save))
             {
-                //ShowFatalError("Failed to create save file.");
-                printf("Failed to create save file.\n\n");
+                ShowFatalError("Failed to create save file.");
             }
         }
 
-        printf("Current Save Data:\n");
-        printf("Level: %lu\n", save.level);
-        printf("HP: %lu\n", save.hp);
-        printf("Gold: %lu\n", save.gold);
-        printf("Difficulty: %lu\n", save.difficulty);
-        printf("\nPress START to save and exit.\n");
-
+        //printf("Current Save Data:\n");
+        //printf("Level: %lu\n", save.level);
+        //printf("HP: %lu\n", save.hp);
+        //printf("Gold: %lu\n", save.gold);
+        //printf("Difficulty: %lu\n", save.difficulty);
+        //printf("\nPress START to save and exit.\n");
+        /*
         while (1)
         {
             swiWaitForVBlank();
@@ -78,8 +74,8 @@ int main(void) {
             if (keysDown() & KEY_START)
                 break;
         }
+        */
     }
-    */
     
     // --- Title Screen Phase ---
     TitleScreen title; 
@@ -177,10 +173,10 @@ int main(void) {
         if (menu.selectedButton == 4) {
             fatInitDefault();
             consoleDemoInit();
-            //if (!Save_Write(&save))
-            //{
-               // ShowFatalError("Failed to save data.");
-            //}
+            if (!Save_Write(&save))
+            {
+               ShowFatalError("Failed to save data.");
+            }
 
             consoleClear();
             printf("Game saved successfully!\n");

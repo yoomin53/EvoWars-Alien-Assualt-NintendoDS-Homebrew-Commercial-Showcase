@@ -134,6 +134,7 @@ void ShowFatalError(const char* msg)
     consoleClear();
     printf("FATAL ERROR\n\n");
     printf("%s\n\n", msg);
+    printf("your device should be dldi patched to enable a save function"); 
     printf("Press START to exit.\n");
 
     while (1)
@@ -143,8 +144,6 @@ void ShowFatalError(const char* msg)
         if (keysDown() & KEY_START)
             break;
     }
-
-    while (1);
 }
 
 void System_Init(void)
@@ -169,7 +168,5 @@ void System_Init(void)
     {
         perror("fatInitDefault");
         ShowFatalError("FAT initialization failed.");
-    }
-
-    printf("FAT initialized successfully!\n\n");
+    } else  {printf("FAT initialized successfully!\n\n");}
 }
