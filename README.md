@@ -179,3 +179,6 @@ This project demonstrates:
 	•	Real-time decision systems with predictable performance
 
 It serves as a supporting example of applied AI engineering, complementing larger or more ML-focused portfolio projects.
+
+<iframe frameborder="0" src="https://itch.io/embed/4458398?border_width=2&amp;bg_color=ebf2ff&amp;link_color=2122ff" width="554" height="169"><a href="https://yoomin53.itch.io/evowarsalienassualt">EvoWars:AlienAssualt by yoomin53</a></iframe>
+
