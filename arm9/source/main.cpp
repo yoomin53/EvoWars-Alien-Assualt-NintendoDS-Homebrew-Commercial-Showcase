@@ -30,7 +30,7 @@
 int main(void) {
     //reduceHeapSize(0x20000);
     defaultExceptionHandler(); 
-    System_Init();
+    //System_Init();
 
 
     SaveData save;
