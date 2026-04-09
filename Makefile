@@ -9,9 +9,9 @@ BLOCKSDSEXT	?= /blocksds/external
 # User config
 # ===========
 
-NAME		:= EvoWars
+NAME		:= EvoWars_demo
 
-GAME_TITLE	:= EvoWars:AlienAssault
+GAME_TITLE	:= EvoWars:AlienAssault_demo
 GAME_SUBTITLE	:= Built with BlocksDS
 GAME_AUTHOR	:= github.com/yoomin53
 GAME_ICON	:= icon.bmp

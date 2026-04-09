@@ -34,6 +34,8 @@ int main(void) {
 
 
     SaveData save;
+    Save_InitNew(&save);
+    /*
     bool init_ok = fatInitDefault();
     consoleDemoInit();
     if (!init_ok)
@@ -65,7 +67,7 @@ int main(void) {
         //printf("Gold: %lu\n", save.gold);
         //printf("Difficulty: %lu\n", save.difficulty);
         //printf("\nPress START to save and exit.\n");
-        /*
+        
         while (1)
         {
             swiWaitForVBlank();
@@ -74,8 +76,9 @@ int main(void) {
             if (keysDown() & KEY_START)
                 break;
         }
-        */
+        
     }
+    */
     
     // --- Title Screen Phase ---
     TitleScreen title; 
@@ -173,10 +176,10 @@ int main(void) {
         if (menu.selectedButton == 4) {
             fatInitDefault();
             consoleDemoInit();
-            if (!Save_Write(&save))
-            {
-               ShowFatalError("Failed to save data.");
-            }
+            //if (!Save_Write(&save))
+            //{
+               //ShowFatalError("Failed to save data.");
+            //}
 
             consoleClear();
             printf("Game saved successfully!\n");
